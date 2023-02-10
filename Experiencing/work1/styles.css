@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nav-container {
+    padding: 20px;
+    height: 90%;
+    width: 18%;
+    box-shadow: black 4px 10px 40px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    transition: all 1s;
+}
+
+.Nav-container div {
+    width: 100%;
+    height: 10%;
+    /* margin: 2px; */
+}
+
+.Nav-container div  > *{
+    display: inline-block;
+}
+
+#part-1 i,.icons i{
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#part-1 div{
+    /* display: ; */
+    width: 80%;
+    height: 100%;
+    float: right;
+    padding-top: 3.4%;
+}
+
+#part-1 div h1,#part-1 div h2{
+    font-size: 20px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Nav-container > div:hover{
+    border-radius: 10px 10px 10px 10px;
+    background-color: pink;
+}
+
+.Nav-container > button{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: pink;
+    position:absolute;
+    right: -3%;
+    top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
